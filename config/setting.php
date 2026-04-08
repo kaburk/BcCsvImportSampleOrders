@@ -23,7 +23,7 @@ return [
             ],
         ],
     ],
-    'BcCsvImportCore' => [
+    'BcCsvImportSampleOrders' => [
         'showImportStrategySelect' => false,
         'defaultImportStrategy'    => 'append',
         'showDuplicateModeSelect'  => false,
