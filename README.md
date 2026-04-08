@@ -45,7 +45,8 @@
 - インポート方式: `append` 固定
 - 重複処理: `skip` 固定
 
-用途をサンプルに絞るため、管理画面ではこれらの選択UIを非表示にしています。
+用途をサンプルに絞るため、管理画面ではこれらの選択UIを非表示にしています。  
+設定は `BcCsvImportSampleOrders/config/setting.php` の `BcCsvImportSampleOrders.*` キーで管理しています。
 
 ## 実装の見どころ
 
