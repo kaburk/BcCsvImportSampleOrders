@@ -36,7 +36,7 @@ class GenerateTestCsvCommand extends AbstractGenerateTestCsvCommand
 
     protected function getFilenamePrefix(): string
     {
-        return 'import_orders_';
+        return 'import_sample_orders_';
     }
 
     protected function buildRow(int $i, array $columnKeys): array

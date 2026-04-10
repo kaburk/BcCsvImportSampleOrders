@@ -51,7 +51,7 @@
 ## 実装の見どころ
 
 - サービス実装: `src/Service/SampleOrdersCsvImportService.php`
-- Table / Entity: `src/Model/Table/BcSampleOrdersTable.php`, `src/Model/Entity/BcSampleOrder.php`
+- Table / Entity: `src/Model/Table/BcCsvSampleOrdersTable.php`, `src/Model/Entity/BcCsvSampleOrder.php`
 - 専用コントローラー: `src/Controller/Admin/SampleOrdersCsvImportsController.php`
 - 画面テンプレート: `BcCsvImportCore` の共通テンプレート `Admin/CsvImports/index` を再利用
 
@@ -68,8 +68,8 @@ bin/cake BcCsvImportSampleOrders.generate_test_csv
 CSVヘッダは `SampleOrdersCsvImportService::getColumnMap()` から自動取得するため、
 カラム定義を変更しても常にインポート仕様と一致します。
 
-生成ファイル名は `import_orders_*.csv` です。
-例: `--sizes=10k --errors=5` の場合は `import_orders_10k_err5pct.csv` が生成されます。
+生成ファイル名は `import_sample_orders_*.csv` です。
+例: `--sizes=10k --errors=5` の場合は `import_sample_orders_10k_err5pct.csv` が生成されます。
 
 主なオプション:
 
