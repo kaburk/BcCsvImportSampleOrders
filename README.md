@@ -68,8 +68,8 @@ bin/cake BcCsvImportSampleOrders.generate_test_csv
 CSVヘッダは `SampleOrdersCsvImportService::getColumnMap()` から自動取得するため、
 カラム定義を変更しても常にインポート仕様と一致します。
 
-生成ファイル名は `import_orders_*.csv` です。
-例: `--sizes=10k --errors=5` の場合は `import_orders_10k_err5pct.csv` が生成されます。
+生成ファイル名は `import_sample_orders_*.csv` です。
+例: `--sizes=10k --errors=5` の場合は `import_sample_orders_10k_err5pct.csv` が生成されます。
 
 主なオプション:
 
