@@ -27,7 +27,7 @@ class SampleOrdersCsvImportService extends CsvImportService implements CsvImport
      */
     public function getTableName(): string
     {
-        return 'BcCsvImportSampleOrders.BcSampleOrders';
+        return 'BcCsvImportSampleOrders.BcCsvSampleOrders';
     }
 
     /**

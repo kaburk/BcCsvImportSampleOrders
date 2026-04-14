@@ -6,7 +6,7 @@ namespace BcCsvImportSampleOrders\Model\Entity;
 use Cake\ORM\Entity;
 
 /**
- * BcSampleOrder Entity
+ * BcCsvSampleOrder Entity
  *
  * @property int $id
  * @property string $order_no
@@ -22,7 +22,7 @@ use Cake\ORM\Entity;
  * @property \Cake\I18n\DateTime|null $created
  * @property \Cake\I18n\DateTime|null $modified
  */
-class BcSampleOrder extends Entity
+class BcCsvSampleOrder extends Entity
 {
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().

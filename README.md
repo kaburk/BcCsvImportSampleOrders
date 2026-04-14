@@ -51,7 +51,7 @@
 ## 実装の見どころ
 
 - サービス実装: `src/Service/SampleOrdersCsvImportService.php`
-- Table / Entity: `src/Model/Table/BcSampleOrdersTable.php`, `src/Model/Entity/BcSampleOrder.php`
+- Table / Entity: `src/Model/Table/BcCsvSampleOrdersTable.php`, `src/Model/Entity/BcCsvSampleOrder.php`
 - 専用コントローラー: `src/Controller/Admin/SampleOrdersCsvImportsController.php`
 - 画面テンプレート: `BcCsvImportCore` の共通テンプレート `Admin/CsvImports/index` を再利用
 
