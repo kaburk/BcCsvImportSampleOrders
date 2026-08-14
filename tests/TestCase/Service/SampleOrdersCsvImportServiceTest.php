@@ -128,7 +128,7 @@ class SampleOrdersCsvImportServiceTest extends BcTestCase
     {
         $csv    = $this->service->buildTemplateCsv();
         $lines  = array_filter(explode("\n", trim($csv)));
-        $header = str_getcsv(array_values($lines)[0]);
+        $header = str_getcsv(array_values($lines)[0], ',', '"', '\\');
 
         $expectedLabels = array_values(array_map(fn($v) => $v['label'], $this->service->getColumnMap()));
         $this->assertSame($expectedLabels, $header);
